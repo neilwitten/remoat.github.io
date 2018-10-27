@@ -12,3 +12,4 @@ We mostly acquire SaaS products with $10k to $100k MRR. If you're considering se
 ## About us
 
 <img src="/assets/damien.png" class="profile"><span>Rebase is founded by entrepreneur and investor [Damien Tanner](http://tanner.me).</span>
+
