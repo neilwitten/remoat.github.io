@@ -1,0 +1,25 @@
+<h2 class="mt-10 mb-6 text-gray-700 text-2xl font-semibold tracking-tight">Our Company</h2>
+
+
+<div class="flex">
+  <div class="w-2/3">
+    <h2 class="mt-10 mb-6 text-gray-700 text-2xl font-semibold tracking-tight">Our Culture & Values</h2>
+    <ul class="">
+      {% assign culture_items = "Diverse Team,Global Mindset,Always Learning,Honest & Open,Self Motivation,Think Long Term" | split: ',' %}
+      {% for item in culture_items %}
+      <li class="mb-4"><h3 class="font-semibold text-gray-800 text-lg">{{ item }}</h3><p>More about</p></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="w-1/3">
+  <h2 class="mt-10 mb-8 text-gray-700 text-2xl font-semibold tracking-tight">Benefits</h2>
+  <ul class="">
+    <li class="flex mb-4 text-center text-gray-800"><i class="w-12 mb-2 mr-2 text-purple-700 far fa-2x fa-money-bill-wave mb-1"></i><p>Competitive Pay</p></li>
+    <li class="flex mb-4 text-center text-gray-800"><i class="w-12 mb-2 mr-2 text-purple-700 far fa-2x fa-briefcase-medical"></i><p>Private Health Insurance</p></li>
+    <li class="flex mb-4 text-center text-gray-800"><i class="w-12 mb-2 mr-2 text-purple-700 far fa-2x fa-plane-departure"></i><p>Conference Trips</p></li>
+    <li class="flex mb-4 text-center text-gray-800"><i class="w-12 mb-2 mr-2 text-purple-700 far fa-2x fa-laptop-code"></i><p>Macbook Pro</p></li>
+    <li class="flex mb-4 text-center text-gray-800"><i class="w-12 mb-2 mr-2 text-purple-700 far fa-2x fa-taxi"></i><p>Transport Budget</p></li>
+    <li class="flex mb-4 text-center text-gray-800"><i class="w-12 mb-2 mr-2 text-purple-700 far fa-2x fa-graduation-cap"></i><p>Learning Budget</p></li>
+  </ul>
+</div>
+</div>

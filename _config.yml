@@ -1,3 +1,9 @@
 theme: jekyll-theme-cayman
 title: Rebase Ventures
 description: We build, buy and grow beautiful software.
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"

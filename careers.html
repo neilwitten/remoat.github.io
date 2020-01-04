@@ -1,0 +1,66 @@
+---
+layout: default
+---
+<div class="container mx-auto px-4">
+  <div class="flex flex-col sm:flex-row items-center mt-16 mb-16">
+    <div class="flex-1 text-center sm:text-left">
+    <h1 class="mb-1 font-bold tracking-tight text-4xl text-black">Do Your Best Work</h1>
+    <h2 class="mb-1 font-semibold tracking-tight text-xl text-gray-700">Join a diverse, international team of ambitious individuals</h2>
+    
+    <p class="text-gray-800">We're building a culture where you can do your best work, grow as a person, and work on products with purpose.</p>
+    </div>
+    <div class="flex-1 order-first sm:order-last sm:mx-4 mb-10 sm:mb-0">
+      <img src="/assets/team-1.png" class="rounded-lg shadow-lg">
+    </div>
+    </div>
+  
+  <h2 class="mt-10 mb-6 text-center text-gray-700 text-2xl font-semibold tracking-tight">Our Culture & Values</h2>
+  <ul class="flex flex-wrap">
+    {% assign culture_items = "Diverse Team,Global Mindset,Always Learning,Honest & Open,Self Motivation,Think Long Term" | split: ',' %}
+    {% for item in culture_items %}
+    <li class="w-1/3"><div class="m-2 sm:m-3 px-2 py-3 sm:p-4 text-sm sm:text-base shadow rounded-lg bg-purple-700 font-bold text-purple-100 text-center">{{ item }}</div></li>
+    {% endfor %}
+  </ul>
+
+  <h2 class="mt-10 mb-8 text-center text-gray-700 text-2xl font-semibold tracking-tight">Benefits</h2>
+  <ul class="flex flex-wrap">
+    <li class="w-1/3 mb-10 text-center text-gray-800 font-semibold text-sm sm:text-base"><i class="mb-2 text-purple-700 far fa-2x fa-money-bill-wave mb-1"></i><p>Competitive Pay</p></li>
+    <li class="w-1/3 mb-10 text-center text-gray-800 font-semibold text-sm sm:text-base"><i class="mb-2 text-purple-700 far fa-2x fa-briefcase-medical"></i><p>Private Health Insurance</p></li>
+    <li class="w-1/3 mb-10 text-center text-gray-800 font-semibold text-sm sm:text-base"><i class="mb-2 text-purple-700 far fa-2x fa-plane-departure"></i><p>Conference Trips</p></li>
+    <li class="w-1/3 mb-10 text-center text-gray-800 font-semibold text-sm sm:text-base"><i class="mb-2 text-purple-700 far fa-2x fa-laptop-code"></i><p>Macbook Pro</p></li>
+    <li class="w-1/3 mb-10 text-center text-gray-800 font-semibold text-sm sm:text-base"><i class="mb-2 text-purple-700 far fa-2x fa-taxi"></i><p>Transport Budget</p></li>
+    <li class="w-1/3 mb-10 text-center text-gray-800 font-semibold text-sm sm:text-base"><i class="mb-2 text-purple-700 far fa-2x fa-graduation-cap"></i><p>Learning Budget</p></li>
+  </ul>
+
+  <h2 class="mt-6 mb-8 text-center text-gray-700 text-2xl font-semibold tracking-tight">Open Positions</h2>
+
+<div class="flex flex-col">
+    <div class="flex-1 p-5 mr-3 mb-8 bg-purple-100 rounded-lg shadow-lg">
+    <h2 class="text-purple-700 text-2xl font-bold tracking-tight">Full-Stack Developer</h2>
+    <p class="font-bold text-purple-500 ">Full-Time Position</p>
+    <p class="font-bold text-purple-500 ">Location: <span>Cairo</span></p>
+    <p class="text-purple-900 mt-3 mb-4">Join the core development team in our Cairo office. Learn from the best, and become a master developer. We mainly use React.js and Node.js. However we often use different languages and framworks depends on the project. So you will have lots of opportunities to learn new things. Other tech we use includes GraphQL, AWS Lambda and TaliwindCSS.
+    </p>
+    <a href="/full-stack-role" class="bg-purple-700 rounded shadow text-purple-100 font-bold px-2 py-2 mt-4">Learn More</a>
+    </div>
+    
+    <div class="flex-1 p-5 mr-3 mb-8 bg-pink-100 rounded-lg shadow-lg">
+    <h2 class="text-pink-700 text-2xl font-bold tracking-tight">Growth Marketing Lead</h2>
+    <p class="font-bold text-pink-500 ">Full-Time Position</p>
+    <p class="font-bold text-pink-500">Location: <span>Cairo</span></p>
+    <p class="text-pink-900 mt-3 mb-4">We are looking for an abitious Growth Hacking and Marketing expert to join our Cairo office. You will take the lead on marketing our B2B SaaS products. You should have some background in at least one area such as SEO, content marketing, analytics or growth hacking.
+    </p>
+    <a href="/growth-marketing-lead-role" class="bg-pink-700 rounded shadow text-pink-100 font-bold px-2 py-2 mt-4">Learn More</a>
+    </div>
+    
+    <div class="flex-1 p-5 mr-3 mb-8 bg-blue-100 rounded-lg shadow-lg">
+      <h2 class="text-blue-700 text-2xl font-bold tracking-tight">Video Streaming Specialist</h2>
+    <p class="font-bold text-blue-500 ">Full-Time Position</p>
+    <p class="font-bold text-blue-500">Location: <span>Cairo</span></p>
+      <p class="text-blue-900 mt-3 mb-4">We are looking for a developer with experience building video straming systems to join our Cairo office. You should have experience using tools like ffmpeg, WebRTC and streaming media servers, knowledge of AWS and deployment, as well as experience in a backend web framework like Rails, Django or Node.
+      </p>
+      <a href="/video-streaming-role" class="bg-blue-700 rounded shadow text-blue-100 font-bold px-2 py-2 mt-4">Learn More</a>
+      </div>
+  </div>
+  
+  </div>
